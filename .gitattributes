@@ -1,0 +1,8 @@
+# Treat Jupyter notebooks as Python files
+*.ipynb linguist-language=Python
+
+# Ensure Python files are recognized correctly
+*.py linguist-language=Python
+
+# Ignore language statistics for HTML files
+*.html linguist-detectable=false
